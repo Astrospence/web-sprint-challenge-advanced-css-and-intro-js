@@ -1,3 +1,5 @@
+//adding stuff for initial submit
+
 const artists = [
   {
     "id": 0,
