@@ -307,10 +307,10 @@ function lotsOfArt(array) {
     const overHundred = [];
     for(let i = 0; i < array.length; i++){
       if(array[i]["paintings"] > 100){
-        overHundred.push(array[i]);
+        overHundred.push(array[i]['name']);
       }
     }
-    return overHundred[];
+    return overHundred;
 }
 
 console.log('Task 7:', lotsOfArt(artists));
