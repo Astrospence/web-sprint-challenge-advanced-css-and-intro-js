@@ -1,5 +1,3 @@
-
-
 const artists = [
   {
     "id": 0,
@@ -272,7 +270,7 @@ function removeArtist(array, index) {
     return array.length;
 }
 
-console.log('Task 5:', removeArtist(artists, 0));
+console.log('Task 5:', removeArtist(artists, 2));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -312,7 +310,7 @@ function lotsOfArt(array) {
         overHundred.push(array[i]);
       }
     }
-    return overHundred;
+    return overHundred[];
 }
 
 console.log('Task 7:', lotsOfArt(artists));
